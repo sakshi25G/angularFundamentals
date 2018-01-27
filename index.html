@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="angularFundamentals">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Phone Gallery</title>
+    <link rel="stylesheet" href="./app/css/app.css" />
+  </head>
+  <body>
+
+    <div class="view-container">
+      <a ui-sref="login">Login</a>
+      <ui-view>
+
+      </ui-view>
+        
+      
+    </div>
+    <script src="./app/scripts/angular.min.js"></script>
+    <script src="./app/scripts/angular-ui-router.min.js"></script>
+    <script src="./app/scripts/app.main.js"></script>
+    <script src="./app/app.routes.js"></script>
+    <script src="./app/components/login/loginController.js"></script>
+  </body>
+</html>
